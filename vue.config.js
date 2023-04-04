@@ -8,7 +8,7 @@ module.exports = defineConfig({
         postcssOptions: {
           plugins: [
             require("postcss-pxtorem")({
-              rootValue: 16,
+              rootValue: 37.5,
               propList: ["*"],
             }),
           ],
